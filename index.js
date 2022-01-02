@@ -42,4 +42,13 @@ const document = {
     },
     path: "./output.pdf",
     type: "",
-  };
+};
+
+pdf
+    .create(document, options)
+    .then((res) => {
+        console.log(res);
+    })
+    .catch((error) => {
+        console.error(error);
+    });
