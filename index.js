@@ -4,12 +4,12 @@ const fs = require("fs");
 const html = fs.readFileSync("template.html", "utf8");
 
 const options = {
-    format: "A3",
+    format: "A4",
     orientation: "portrait",
     border: "10mm",
     header: {
         height: "45mm",
-        contents: '<div style="text-align: center;">Author: Shyam Hajare</div>'
+        contents: '<div style="text-align: center;">Author: Sabelo Mtetwa</div>'
     },
     footer: {
         height: "28mm",
